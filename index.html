@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tailwind CSS</title>
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body class="h-screen bg-blue-500 m-0 border-0 font-roboto-mono">
+	<div class="header-container fixed top-0 w-full box-border z-10">
+		<header class="w-full h-24 flex items-center justify-center bg-orange-100 box-border">
+			<h1 class="font-bold text-3xl select-none font-roboto-mono">Авоська</h1>
+		</header>
+	</div>
+	<div class="navigation w-full min-w-96 h-24 bg-blue-400 flex justify-center items-center gap-x-20 mt-24 box-border relative left-0 right-0
+	top-0">
+		<button class="registration-singin-button bg-blue-300 flex justify-center items-center py-2 px-5 min-w-48 max-w-52 font-roboto-mono">Вход\регистрация</button>
+		<button class="private-room-button bg-blue-300 flex justify-center items-center py-2 px-5 min-w-48 max-w-52 font-roboto-mono">Личный кабинет</button>
+		<button class="favorite-button bg-blue-300 flex justify-center items-center py-2 px-5 min-w-48 max-w-52 font-roboto-mono">Избранное</button>
+		<button class="catalogue-button bg-blue-300 flex justify-center items-center py-2 px-5  min-w-48 max-w-52 font-roboto-mono">Каталог товаров</button>
+	</div>
+	<div class="main w-full flex flex-col h-full px-20">
+		<div class="filters w-full min-h-16 max-h-24 flex justify-start items-center gap-x-5 flex-around">
+			<div class="whitespace-nowrap w-auto p-0 text-xl underline underline-offset-8">Популярность</div>
+			<div class="whitespace-nowrap w-auto text-xl underline underline-offset-8">Цена по убыванию</div>
+			<div class="whitespace-nowrap w-auto text-xl underline underline-offset-8">Цена по возрастанию</div>
+			<div class="whitespace-nowrap w-auto text-xl underline underline-offset-8">Дата добаления</div>
+			<div class="whitespace-nowrap w-auto text-xl underline underline-offset-8">Качество</div>
+			<div class="whitespace-nowrap w-auto text-xl underline underline-offset-8">По числу просмотров</div>
+		</div>
+		<div class="catalogue-cards max-w-full flex justify-center items-start flex-wrap gap-x-8 gap-y-8 mt-5">
+			<div class="product-card w-80 max-h-xl border-0 rounded-xl s bg-blue-300 hyphens-auto px-5 py-10
+			flex flex-col justify-center items-center gap-y-5 shadow-md shadow-black">
+				<img class="product-image w-full h-auto" src="./images/shapka.png">
+				<div class="product-cost">Цена : 1500р</div>
+				<button class="buy-button bg-blue-500 flex justify-center items-center py-2 px-5 min-w-48 max-w-52 font-roboto-mono">Купить</button>
+			</div>
+			<div class="product-card w-80 max-h-xl border-0 rounded-xl s bg-blue-300 hyphens-auto px-5 py-10
+			flex flex-col justify-center items-center gap-y-5 shadow-md shadow-black">
+				<img class="product-image w-full h-auto" src="./images/shapka.png">
+				<div class="product-cost">Цена : 1500р</div>
+				<button class="buy-button bg-blue-500 flex justify-center items-center py-2 px-5 min-w-48 max-w-52 font-roboto-mono">Купить</button>
+			</div>
+			<div class="product-card w-80 max-h-xl border-0 rounded-xl s bg-blue-300 hyphens-auto px-5 py-10
+			flex flex-col justify-center items-center gap-y-5 shadow-md shadow-black">
+				<img class="product-image w-full h-auto" src="./images/shapka.png">
+				<div class="product-cost">Цена : 1500р</div>
+				<button class="buy-button bg-blue-500 flex justify-center items-center py-2 px-5 min-w-48 max-w-52 font-roboto-mono">Купить</button>
+			</div>
+			<div class="product-card w-80 max-h-xl border-0 rounded-xl s bg-blue-300 hyphens-auto px-5 py-10
+			flex flex-col justify-center items-center gap-y-5 shadow-md shadow-black">
+				<img class="product-image w-full h-auto" src="./images/shapka.png">
+				<div class="product-cost">Цена : 1500р</div>
+				<button class="buy-button bg-blue-500 flex justify-center items-center py-2 px-5 min-w-48 max-w-52 font-roboto-mono">Купить</button>
+			</div>
+			<div class="product-card w-80 max-h-xl border-0 rounded-xl s bg-blue-300 hyphens-auto px-5 py-10
+			flex flex-col justify-center items-center gap-y-5 shadow-md shadow-black">
+				<img class="product-image w-full h-auto" src="./images/shapka.png">
+				<div class="product-cost">Цена : 1500р</div>
+				<button class="buy-button bg-blue-500 flex justify-center items-center py-2 px-5 min-w-48 max-w-52 font-roboto-mono">Купить</button>
+			</div>
+			<div class="product-card w-80 max-h-xl border-0 rounded-xl s bg-blue-300 hyphens-auto px-5 py-10
+			flex flex-col justify-center items-center gap-y-5 shadow-md shadow-black">
+				<img class="product-image w-full h-auto" src="./images/shapka.png">
+				<div class="product-cost">Цена : 1500р</div>
+				<button class="buy-button bg-blue-500 flex justify-center items-center py-2 px-5 min-w-48 max-w-52 font-roboto-mono">Купить</button>
+			</div>
+			<div class="product-card w-80 max-h-xl border-0 rounded-xl s bg-blue-300 hyphens-auto px-5 py-10
+			flex flex-col justify-center items-center gap-y-5 shadow-md shadow-black">
+				<img class="product-image w-full h-auto" src="./images/shapka.png">
+				<div class="product-cost">Цена : 1500р</div>
+				<button class="buy-button bg-blue-500 flex justify-center items-center py-2 px-5 min-w-48 max-w-52 font-roboto-mono">Купить</button>
+			</div>
+			<div class="product-card w-80 max-h-xl border-0 rounded-xl s bg-blue-300 hyphens-auto px-5 py-10
+			flex flex-col justify-center items-center gap-y-5 shadow-md shadow-black">
+				<img class="product-image w-full h-auto" src="./images/shapka.png">
+				<div class="product-cost">Цена : 1500р</div>
+				<button class="buy-button bg-blue-500 flex justify-center items-center py-2 px-5 min-w-48 max-w-52 font-roboto-mono">Купить</button>
+			</div>
+			<div class="product-card w-80 max-h-xl border-0 rounded-xl s bg-blue-300 hyphens-auto px-5 py-10
+			flex flex-col justify-center items-center gap-y-5 shadow-md shadow-black">
+				<img class="product-image w-full h-auto" src="./images/shapka.png">
+				<div class="product-cost">Цена : 1500р</div>
+				<button class="buy-button bg-blue-500 flex justify-center items-center py-2 px-5 min-w-48 max-w-52 font-roboto-mono">Купить</button>
+			</div>
+			<div class="product-card w-80 max-h-xl border-0 rounded-xl s bg-blue-300 hyphens-auto px-5 py-10
+			flex flex-col justify-center items-center gap-y-5 shadow-md shadow-black">
+				<img class="product-image w-full h-auto" src="./images/shapka.png">
+				<div class="product-cost">Цена : 1500р</div>
+				<button class="buy-button bg-blue-500 flex justify-center items-center py-2 px-5 min-w-48 max-w-52 font-roboto-mono">Купить</button>
+			</div>
+			<div class="product-card w-80 max-h-xl border-0 rounded-xl s bg-blue-300 hyphens-auto px-5 py-10
+			flex flex-col justify-center items-center gap-y-5 shadow-md shadow-black">
+				<img class="product-image w-full h-auto" src="./images/shapka.png">
+				<div class="product-cost">Цена : 1500р</div>
+				<button class="buy-button bg-blue-500 flex justify-center items-center py-2 px-5 min-w-48 max-w-52 font-roboto-mono">Купить</button>
+			</div>
+			<div class="product-card w-80 max-h-xl border-0 rounded-xl s bg-blue-300 hyphens-auto px-5 py-10
+			flex flex-col justify-center items-center gap-y-5 shadow-md shadow-black">
+				<img class="product-image w-full h-auto" src="./images/shapka.png">
+				<div class="product-cost">Цена : 1500р</div>
+				<button class="buy-button bg-blue-500 flex justify-center items-center py-2 px-5 min-w-48 max-w-52 font-roboto-mono">Купить</button>
+			</div>
+		</div>
+	</div>
+	<footer class="w-full h-24 relative bottom-0 inset-x-0">
+		<div class="footer-container w-full h-full flex items-center justify-center bg-orange-100">
+			<h1 class="font-bold text-2xl select-none font-roboto-mono">Goodbye World</h1>
+		</div>
+	</footer>
+	<!-- первый залив на гит -->
+</body>
+</html>
