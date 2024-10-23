@@ -1,0 +1,11 @@
+.nav-button:hover {
+    background-color: #93c5fd;
+    transition: 1s;
+    transform:scale(1.005);
+}
+
+.buy-button:hover {
+    background-color: #93c5fd;
+    transition: 1s;
+    transform:scale(1.005);
+}
