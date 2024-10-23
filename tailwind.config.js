@@ -5,7 +5,10 @@ module.exports = {
     extend: {
 		height: {
 			
-		}
+		},
+    fontFamily: {
+      'Arima': 'Arima-VariableFont'
+    }
 	 },
   },
   plugins: [],
