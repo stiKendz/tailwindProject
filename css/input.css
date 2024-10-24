@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    .reg-window {
+        @apply w-2xl h-1080%75 border-20;
+    }
+}
+
+/* предстоит исправить проблему с тем, что стили не применяются */
+/* @layer components {
+    .reg-inputs {
+        @apply flex align-center justify-center py-5 px-20 pl-0 text-2xl;
+    }
+} */
+

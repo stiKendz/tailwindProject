@@ -13,9 +13,17 @@
 			<h1 class="font-medium text-3xl select-none font-Arima">Авоська</h1>
 		</header>
 	</div>
-    <div class="main-content flex flex-col flex-grow w-full m-0 p-0 mt-28">
-        <div class="back-button-container flex items-center justify-center max-h-24">
-            <button class="back-button flex justify-center items-center font-extrabold bg-blue-400 px-5 py-2" id="back-button" onclick="toMainPage()">На главную</button>
+    <div class="main-content flex flex-col flex-grow items-center w-full m-0 p-0 mt-24">
+        <div class="back-button-container flex items-center justify-self-start max-h-24 float-left my-4">
+            <button class="back-button flex justify-center items-center py-2 px-5 min-w-48 max-w-52 font-roboto-mono border border-black" id="back-button" onclick="toMainPage()">
+                На главную</button>
+        </div>
+        <div class="registration-container w-full h-full flex align-center justify-center">
+            <!-- остальные стили от reg-window и дочерних в файле input.css -->
+            <div class="reg-window flex flex-col items-center  justify-center border-blue-400 rounded-md px-10 gap-y-10">
+                <input type="text" class="reg-inputs input-email" id="email-input" placeholder="Email">
+                <input type="text" class="reg-inputs input-password" id="password-input" placeholder="Password">
+            </div>
         </div>
     </div>
     <!-- scripts -->
